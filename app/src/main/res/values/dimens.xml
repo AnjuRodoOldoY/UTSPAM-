@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_h1">33sp</dimen>
+    <dimen name="title_h2">30sp</dimen>
+    <dimen name="title_h3">28sp</dimen>
+    <dimen name="title_h4">26sp</dimen>
+    <dimen name="normal_1">22sp</dimen>
+    <dimen name="normal_2">20sp</dimen>
+    <dimen name="normal_3">16sp</dimen>
+    <dimen name="normal_4">12sp</dimen>
+
+    <dimen name="padding_normal">12dp</dimen>
+    <dimen name="padding_big">18dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

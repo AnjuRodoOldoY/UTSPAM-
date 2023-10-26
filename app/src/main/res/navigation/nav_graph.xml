@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard_home">
+
+    <fragment
+        android:id="@+id/dashboard_home_fragment"
+        android:name="com.anjuutspam.app.page.DashboardHomeFragment"
+        android:label="@string/greetings_dashboard"
+        tools:layout="@layout/dashboard_home" >
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/dashboard_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashhboard_profile_fragment"
+        android:name="com.anjuutspam.app.page.DashboardProfileFragment"
+        android:label="@string/greetings_profile"
+        tools:layout="@layout/dashboard_profile" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/dashboard_profile" />
+    </fragment>
+</navigation>
